@@ -46,7 +46,7 @@ function Cart() {
           {cart.map((item) => (
             <CartItem
               item={item}
-              key={item.key}
+              key={item.id}
             />
           ))}
         </ul>
